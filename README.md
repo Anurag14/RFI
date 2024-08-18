@@ -38,7 +38,8 @@ We show that the robust features are learned first during gradient descent dynam
 
 ![Robust NTK Feature have largest eigenvalue](assets/log_delta.png)
 
-![RFI on CIFAR 10](assets/all_topk_old)
+Robust accuracy and eigenvalue profile in ascending order of all the methods. By truncating to K number of features at test time we improve the test time robust accuracy. 
+![RFI on CIFAR 10](assets/all_topk_old.png)
 
 ## Contributing
 We welcome contributions from the community. If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
